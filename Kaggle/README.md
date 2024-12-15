@@ -2,17 +2,5 @@
 
 | Название проекта | Описание | Используемые библиотеки | 
 | :---------------------- | :---------------------- | :---------------------- |
-| [Музыка больших городов](yandex_music_project.csv) | Сравнение предпочтений пользователей Яндекс.Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница)| </br>import pandas as pd, </br>import matplotlib.pyplot as plt, </br>import seaborn as sns, </br>import numpy as np, </br>from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler, MinMaxScaler, RobustScaler, LabelEncoder
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
-from sklearn.model_selection import RandomizedSearchCV,GridSearchCV
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from xgboost import XGBClassifier
-from catboost import CatBoostClassifier
-from sklearn.ensemble import GradientBoostingClassifier
-from catboost import CatBoostClassifier | 
+| [Музыка больших городов](yandex_music_project.csv) | Сравнение предпочтений пользователей Яндекс.Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница)| </br>import pandas as pd </br>import matplotlib.pyplot as plt </br>import seaborn as sns </br>import numpy as np </br>from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler, MinMaxScaler, RobustScaler, LabelEncoder </br> from sklearn.impute import SimpleImputer </br>from sklearn.model_selection import train_test_split </br>from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay </br> from sklearn.pipeline import Pipeline </br>from sklearn.compose import ColumnTransformer </br>from sklearn.model_selection import </br>RandomizedSearchCV,GridSearchCV </br>from sklearn.neighbors import KNeighborsClassifier </br>from sklearn.tree import DecisionTreeClassifier </br>from xgboost import XGBClassifier </br>from catboost import CatBoostClassifier </br>from sklearn.ensemble import GradientBoostingClassifier </br>from catboost import CatBoostClassifier | 
 
