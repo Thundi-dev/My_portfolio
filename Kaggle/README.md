@@ -1,4 +1,4 @@
-# Самый первый проект "Exploring Mental Health Data"
+# Kaggle project "Exploring Mental Health Data"
 
 | Описание | Используемые библиотеки | 
 | :---------------------- | :---------------------- |
